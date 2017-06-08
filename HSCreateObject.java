@@ -8,7 +8,7 @@ class HSCreateObject implements Serializable
 {
 	public static void main(String args[]) throws Exception
 	{
-		HSMainObject m=new HSMainObject();
+		HSMainObject m=new HSMainObject(); 
 		m.hs=new HashSet<String>();
 		File f=new File("words.txt");
 		File f1=new File("mainobj.txt");
